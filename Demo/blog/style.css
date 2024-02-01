@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 95%;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+
+header h2 {
+    padding: 15px;
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+header nav {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 40px;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* new article */
+.new-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.new-article p {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+
+article a::after {
+    content: "";
+    display: block;
+    width: 80px;
+    background-color: black;
+    height: 1px;
+    margin: 0 auto;
+}
+
+/*main aside section */
+
+.container {
+    display: flex;
+}
+
+main {
+    flex: 0.66;
+}
+
+main article {
+    margin-bottom: 50px;
+}
+
+main h1 {
+    font-size: 30px;
+}
+
+main ul  {
+    list-style: none;
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+
+main ul li {
+    margin-right: 40px;
+
+}
+
+main img {
+    width: 100%;
+
+}
+
+main .article-intro {
+    text-align: center;
+    padding: 10px 86px 30px 40px;
+}
+
+main .article-intro p {
+    font-weight: bold;
+}
+
+aside img {
+    border-radius: 50%;
+}
